@@ -1,26 +1,31 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <title>CryptoBallot: Secure Online Voting</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="flatly/bootstrap.css" media="screen">
-    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/bootswatch.min.css">
-  <style type="text/css"></style></head>
-  <body>
-    <div class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <a href="." style="font-family:Courier, monospace" class="navbar-brand">CryptoBallot</a>
-          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <div class="navbar-collapse collapse" id="navbar-main">
-          <ul class="nav navbar-nav">
-            <!--
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <title>CryptoBallot: Secure Online Voting</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="flatly/bootstrap.css" media="screen">
+  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/bootswatch.min.css">
+  <style type="text/css"></style>
+</head>
+
+<body>
+  <div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a href="." style="font-family:Courier, monospace" class="navbar-brand">CryptoBallot</a>
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="navbar-collapse collapse" id="navbar-main">
+        <ul class="nav navbar-nav">
+          <!--
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="http://bootswatch.com/#" id="themes">Themes <span class="caret"></span></a>
               <ul class="dropdown-menu" aria-labelledby="themes">
@@ -50,92 +55,104 @@
               <a href="http://news.bootswatch.com/">Blog</a>
             </li>
           -->
-          </ul>
+        </ul>
 
-          <ul class="nav navbar-nav navbar-right">
-            <li><a target="_blank" href="https://github.com/cryptoballot/cryptoballot">View on Github</a></li>
-          </ul>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="splash">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-lg-12">
-            <img src="./wordmark.png" style="width:300px;"/>
-            <!--<h1>Secure online voting</h1>-->
-            <h2 style="font-family:Courier, monospace">cryptographically secure online voting</h2>
-            <div id="social">
-            </div>
-            <div class="row">
-              <div class="col-md-6 col-md-offset-3">
-              </div>
-            </div>
-          </div>
-        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a target="_blank" href="https://github.com/cryptoballot/cryptoballot">View on Github</a></li>
+        </ul>
 
       </div>
     </div>
+  </div>
 
-    <div class="section-tout">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-lg-4 col-sm-6">
-            <h3><i class="fa fa-lock"></i> Secure</h3>
-            <p>RSA public key cryptography secures voter identity and election integrity.</p>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <h3><i class="fa fa-user"></i> Anonymous</h3>
-            <p>All users maintain anonymity. Ballots cannot be traced back to the voter.</p>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <h3><i class="fa fa-eye"></i> Auditable</h3>
-            <p>Ballot counting and voter identity are publically auditable for maximum trust. It is <a target="_blank" href="https://en.wikipedia.org/wiki/End-to-end_auditable_voting_systems">E2E</a> verifiable.</p>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <h3><i class="fa fa-cogs"></i> RESTful</h3>
-             <p>A RESTful API with support for multiple client front-ends.</p>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <h3><i class="fa fa-github"></i> Open Source</h3>
-            <p>Released under the AGPLv3 License and maintained by the community on <a target="_blank" href="https://github.com/cryptoballot/cryptoballot">Github</a>.</p>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <h3><i class="fa fa-bullhorn"></i> Stay Updated</h3>
-            <p>Be notified about updates by subscribing via <a href="https://twitter.com/CryptoBallot">Twitter</a>.</p>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="section-preview">
-      <div class="container">
-        <div class="row">
-          <p style='font-size:1.5em'>
-            CryptoBallot is a secure election server daemon that does the grunt work to secure online voting for your web or mobile application. In the same way that Solr is a search engine, and memcached is a caching engine, CryptoBallot is a secure election engine. CryptoBallot does not provide a UI to users, but rather provides a easy-to-use RESTful API so application developers can enable rock solid cryptographically secure voting in their apps.
-          </p>
-        </div>
-      </div>
-    </div>
-
+  <div class="splash">
     <div class="container">
-      <footer>
-        <div class="row">
-          <div class="col-lg-12">
+
+      <div class="row">
+        <div class="col-lg-12">
+          <img src="./wordmark.png" style="width:300px;" />
+          <!--<h1>Secure online voting</h1>-->
+          <h2 style="font-family:Courier, monospace">cryptographically secure online voting</h2>
+          <div id="social">
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+            </div>
           </div>
         </div>
-      </footer>
+      </div>
+
     </div>
+  </div>
+
+  <div class="section-tout">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-4 col-sm-6">
+          <h3><i class="fa fa-lock"></i> Secure</h3>
+          <p>Strong cryptography secures voter identity and election integrity.</p>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <h3><i class="fa fa-user"></i> Anonymous</h3>
+          <p>All users maintain anonymity. Ballots cannot be traced back to the voter.</p>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <h3><i class="fa fa-eye"></i> Auditable</h3>
+          <p>Ballot counting and voter identity are publically auditable for maximum trust. It is <a target="_blank"
+              href="https://en.wikipedia.org/wiki/End-to-end_auditable_voting_systems">E2E</a> verifiable.</p>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <h3><i class="fa fa-cogs"></i> RESTful</h3>
+          <p>A RESTful API with support for multiple client front-ends.</p>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <h3><i class="fa fa-github"></i> Open Source</h3>
+          <p>Released under the AGPLv3 License and maintained by the community on <a target="_blank"
+              href="https://github.com/cryptoballot/cryptoballot">Github</a>.</p>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <h3><i class="fa fa-bullhorn"></i> Stay Updated</h3>
+          <p>Be notified about updates by subscribing via <a href="https://twitter.com/CryptoBallot">Twitter</a>.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="section-preview">
+    <div class="container">
+      <div class="row">
+        <p style='font-size:1.5em'>
+          CryptoBallot is a secure election server daemon that does the grunt work to secure online voting for your web
+          or mobile application. In the same way that Solr is a search engine, and memcached is a caching engine,
+          CryptoBallot is a secure election engine. CryptoBallot does not provide a UI to users, but rather provides a
+          easy-to-use RESTful API so application developers can enable rock solid cryptographically secure voting in
+          their apps.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <footer>
+      <div class="row">
+        <div class="col-lg-12">
+          <iframe style="margin-left: 80px"
+            src="https://docs.google.com/presentation/d/e/2PACX-1vQ5O30ytzKp4ggkL6DXdDwz39artGUVhZJ_B__nIEKgk1gK_i_e75HREpGy1uYyx8KyYIdGZHpa0uy-/embed?start=false&loop=false&delayms=600000"
+            frameborder="0" width="1000" height="600" allowfullscreen="true" mozallowfullscreen="true"
+            webkitallowfullscreen="true"></iframe>
+        </div>
+      </div>
+    </footer>
+  </div>
 
 
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="./assets/js/bootswatch.js"></script>
-  
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="./assets/js/bootswatch.js"></script>
 
-</body></html>
+
+</body>
+
+</html>
